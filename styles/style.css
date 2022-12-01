@@ -1,10 +1,8 @@
-.section {
-    padding: 2em 10em;
+main {
+    padding-bottom: 5em;
 }
 
-main {
-    padding-bottom: 10em;
-}
+/* --------------- HEADERS & TEXT --------------- */
 
 h1 {
     font-size: 2.5em;
@@ -29,11 +27,42 @@ h3 {
 }
 
 p {
-    padding: 1em 0;
     color: #729CC0;
 }
 
-nav {
+/* --------------- SECTIONS --------------- */
+
+.section {
+    padding: 2em 10em 4em 10em;
+}
+
+.section--highlight {
+    background-color: #E5FCF5;
+}
+
+.flex {
+    display: flex;
+}
+
+/* --------------- BLOCKS --------------- */
+
+.block__flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10em;
+}
+
+
+.flex__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* --------------- NAV --------------- */
+
+.nav {
     background-color: #E5FCF5;
     
 }
@@ -49,40 +78,30 @@ nav {
     padding-top: 2em;
 }
 
-
-.section--highlight {
-    background-color: #E5FCF5;
+.circle__nav {
+    position: absolute;
+    right: 0;
 }
 
-.block__flex {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 10em;
-}
 
-.section__flex {
-    display: flex;
-    padding: 0 18em;
-}
-
-.text__left {
-    padding-top: 4em;
-    padding-right: 2em;
-}
-
-.text__right {
-    padding-top: 4em;
-    padding-left: 2em;
-}
+/* --------------- IMAGES & ICONS --------------- */
 
 .intro__image {
-    height: 300px;
-    padding: 2em 0;
+    width: 300px;
 }
 
 .icon {
     height: 150px;
 }
+
+.profile__image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* --------------- BUTTONS --------------- */
 
 .btn {
     padding: 0.5em 1em;
@@ -91,13 +110,105 @@ nav {
     border-radius: 5px;
 }
 
+
+/* --------------- SHAPES --------------- */
+
+.circle {
+    background: #B3DEC1;
+    border-radius: 50%
+  }
+
+.circle__xl {
+    width: 75px;
+    height: 75px;
+}
+
+.circle__s {
+    width: 50px;
+    height: 50px;
+}
+
+.circle__xs {
+    width: 30px;
+    height: 30px;
+}
+
+.circle__one {
+    position: absolute;
+    top: -20px;
+    right: 80px;
+}
+
+.circle__two {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+}
+
+.circle__three{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+/* --------------- FOOTER --------------- */
+
 .footer__block {
     background-color: #B3DEC1;
     border-top-left-radius:50% 75%;
     border-top-right-radius:50% 75%;
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 2em;
 }
+
+/* --------------- PADDING & MARGINS --------------- */
+
+.padding__x__xs {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.padding__x {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.padding__x__xl {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.padding__x__xxl {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.padding__y {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.padding__y__xl {
+    padding-left: 18em;
+    padding-right: 18em;
+}
+
+.padding__top {
+    padding-top: 2em;
+}
+
+.padding__top__xl {
+    padding-top: 4em;
+}
+
+.padding__left {
+    padding-left: 2em;
+}
+
+.padding__right {
+    padding-right: 2em;
+}
+
