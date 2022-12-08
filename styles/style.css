@@ -1,5 +1,5 @@
 main {
-    padding-bottom: 5em;
+    padding-bottom: 7em;
 }
 
 /* --------------- HEADERS & TEXT --------------- */
@@ -28,6 +28,7 @@ h3 {
 
 p {
     color: #729CC0;
+    padding-bottom: 1em;
 }
 
 /* --------------- SECTIONS --------------- */
@@ -157,7 +158,7 @@ p {
     background-color: #B3DEC1;
     border-top-left-radius:50% 75%;
     border-top-right-radius:50% 75%;
-    height: 200px;
+    height: 150px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -210,5 +211,13 @@ p {
 
 .padding__right {
     padding-right: 2em;
+}
+
+.padding__bottom {
+    padding-bottom: 1em;
+}
+
+.center {
+    text-align: center;
 }
 
