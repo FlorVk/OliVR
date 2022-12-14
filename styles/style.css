@@ -2,39 +2,49 @@ main {
     padding-bottom: 7em;
 }
 
-/* --------------- HEADERS & TEXT --------------- */
+/* ------------------------- HEADERS & TEXT ------------------------- */
 
 h1 {
+    font-family: 'Abril Fatface', cursive;
     font-size: 2.5em;
     font-weight: bold;
     color: #385580;
 }
 
 h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 1em;
     color: #385580;
 }
 
 h3 {
+    font-family: 'Playfair Display', serif;
     font-size: 1.6em;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 1em;
+    color: #385580;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
     color: #385580;
 }
 
 p {
+    font-family: 'Lato', sans-serif;
     color: #729CC0;
     padding-bottom: 1em;
 }
 
-/* --------------- SECTIONS --------------- */
+/* ------------------------- SECTIONS ------------------------- */
 
 .section {
-    padding: 2em 10em 4em 10em;
+    padding: 4em 12em;
 }
 
 .section--highlight {
@@ -45,23 +55,23 @@ p {
     display: flex;
 }
 
-/* --------------- BLOCKS --------------- */
+/* ------------------------- BLOCKS ------------------------- */
 
-.block__flex {
+.block-flex {
     display: flex;
     justify-content: space-around;
     margin: 0 10em;
 }
 
 
-.flex__text {
+.flex-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
 }
 
-/* --------------- NAV --------------- */
+/* ------------------------- NAV ------------------------- */
 
 .nav {
     background-color: #E5FCF5;
@@ -76,35 +86,38 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding-top: 2em;
 }
 
-.circle__nav {
+.nav__circle {
     position: absolute;
     right: 0;
 }
 
 
-/* --------------- IMAGES & ICONS --------------- */
+/* ------------------------- IMAGES & ICONS ------------------------- */
 
-.intro__image {
+.intro-image {
     width: 300px;
+    height: 250px;
+    object-fit: cover;
+    
 }
 
 .icon {
     height: 150px;
 }
 
-.profile__image {
+.profile-image {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-/* --------------- BUTTONS --------------- */
+/* ------------------------- BUTTONS ------------------------- */
 
 .btn {
+    font-family: 'Quicksand', sans-serif;
     padding: 0.5em 1em;
     background-color: #F2994A;
     color: white;
@@ -112,24 +125,24 @@ p {
 }
 
 
-/* --------------- SHAPES --------------- */
+/* ------------------------- SHAPES ------------------------- */
 
 .circle {
     background: #B3DEC1;
     border-radius: 50%
   }
 
-.circle__xl {
+.circle--xl {
     width: 75px;
     height: 75px;
 }
 
-.circle__s {
+.circle--s {
     width: 50px;
     height: 50px;
 }
 
-.circle__xs {
+.circle--xs {
     width: 30px;
     height: 30px;
 }
@@ -152,7 +165,7 @@ p {
     right: 30px;
 }
 
-/* --------------- FOOTER --------------- */
+/* ------------------------- FOOTER ------------------------- */
 
 .footer__block {
     background-color: #B3DEC1;
@@ -162,62 +175,71 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding-top: 2em;
 }
 
-/* --------------- PADDING & MARGINS --------------- */
+/* ------------------------- PADDING & MARGINS ------------------------- */
 
-.padding__x__xs {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.padding__x {
+.x {
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-.padding__x__xl {
+.x--xs {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.x--xl {
     padding-top: 4em;
     padding-bottom: 4em;
 }
 
-.padding__x__xxl {
+.x--xxl {
     padding-top: 6em;
     padding-bottom: 6em;
 }
 
-.padding__y {
+.y {
     padding-left: 10em;
     padding-right: 10em;
 }
 
-.padding__y__xl {
+.y--xl {
     padding-left: 18em;
     padding-right: 18em;
 }
 
-.padding__top {
+.top {
     padding-top: 2em;
 }
 
-.padding__top__xl {
+.top--s {
+    padding-top: 1em;
+}
+
+.top--xl {
     padding-top: 4em;
 }
 
-.padding__left {
+.left {
     padding-left: 2em;
 }
 
-.padding__right {
+.right {
     padding-right: 2em;
 }
 
-.padding__bottom {
+.bottom {
     padding-bottom: 1em;
 }
 
+/* ------------------------- PROPERTIES ------------------------- */
+
 .center {
     text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
