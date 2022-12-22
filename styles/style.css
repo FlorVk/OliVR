@@ -4,11 +4,14 @@
     --lightBlue: #CCEAF5;
     --darkBlue: #385580;
     --buttonBlue: #2334B6;
+    --white: #FEFDFB;
+    --black: #2b2b2b;
 }
 
 main {
     padding-bottom: 7em;
-    color: #303030;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 /* ------------------------- HEADERS & TEXT ------------------------- */
@@ -17,6 +20,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5em;
     font-weight: bold;
+    color: var(--black);
 }
 
 h2 {
@@ -24,6 +28,7 @@ h2 {
     font-size: 2em;
     font-weight: 700;
     text-align: center;
+    color: var(--black);
 }
 
 h3 {
@@ -31,6 +36,7 @@ h3 {
     font-size: 1.6em;
     font-weight: bold;
     text-align: center;
+    color: var(--black);
 }
 
 h4 {
@@ -38,11 +44,13 @@ h4 {
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
+    color: var(--black);
 }
 
 p {
     font-family: 'Lato', sans-serif;
     padding-bottom: 1em;
+    color: var(--black);
 }
 
 /* ------------------------- SECTIONS ------------------------- */
@@ -124,7 +132,7 @@ p {
     font-family: 'Quicksand', sans-serif;
     padding: 0.5em 1em;
     background-color: var(--buttonBlue);
-    color: white;
+    color: var(--white);
     font-weight: bold;
     border-radius: 5px;
 }
@@ -254,7 +262,7 @@ p {
 }
 
 .color__white {
-    color: white;
+    color: var(--white);
 }
 
 
@@ -262,5 +270,12 @@ p {
     .flex {
         display: flex;
         flex-direction: column;
+    }
+
+    .block-flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 10em;
     }
 }
