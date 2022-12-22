@@ -1,5 +1,14 @@
+:root {
+    --lightGreen: #E5FCF5;
+    --green: #B3DEC1;
+    --lightBlue: #CCEAF5;
+    --darkBlue: #385580;
+    --buttonBlue: #2334B6;
+}
+
 main {
     padding-bottom: 7em;
+    color: #303030;
 }
 
 /* ------------------------- HEADERS & TEXT ------------------------- */
@@ -8,23 +17,20 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5em;
     font-weight: bold;
-    color: #385580;
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2em;
     font-weight: 700;
     text-align: center;
-    color: #385580;
 }
 
 h3 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.6em;
     font-weight: bold;
     text-align: center;
-    color: #385580;
 }
 
 h4 {
@@ -32,12 +38,10 @@ h4 {
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
-    color: #385580;
 }
 
 p {
     font-family: 'Lato', sans-serif;
-    color: #729CC0;
     padding-bottom: 1em;
 }
 
@@ -48,7 +52,7 @@ p {
 }
 
 .section--highlight {
-    background-color: #E5FCF5;
+    background-color: var(--lightGreen);
 }
 
 .flex {
@@ -74,12 +78,12 @@ p {
 /* ------------------------- NAV ------------------------- */
 
 .nav {
-    background-color: #E5FCF5;
+    background-color: var(--lightGreen);
     
 }
 
 .nav__block {
-    background-color: #B3DEC1;
+    background-color: var(--green);
     border-bottom-left-radius:50% 75%;
     border-bottom-right-radius:50% 75%;
     height: 150px;
@@ -119,16 +123,22 @@ p {
 .btn {
     font-family: 'Quicksand', sans-serif;
     padding: 0.5em 1em;
-    background-color: #F2994A;
+    background-color: var(--buttonBlue);
     color: white;
+    font-weight: bold;
     border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #CCEAF5;
+    color: #385580;
 }
 
 
 /* ------------------------- SHAPES ------------------------- */
 
 .circle {
-    background: #B3DEC1;
+    background: var(--green);
     border-radius: 50%
   }
 
@@ -168,7 +178,7 @@ p {
 /* ------------------------- FOOTER ------------------------- */
 
 .footer__block {
-    background-color: #B3DEC1;
+    background-color: var(--green);
     border-top-left-radius:50% 75%;
     border-top-right-radius:50% 75%;
     height: 150px;
@@ -243,10 +253,14 @@ p {
     visibility: hidden;
 }
 
+.color__white {
+    color: white;
+}
 
 
 @media (max-width: 1200px){
-    main {
-        background-color: #385580;
+    .flex {
+        display: flex;
+        flex-direction: column;
     }
 }
