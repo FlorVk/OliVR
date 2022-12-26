@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_1500_x_1500_px_Logo_4" data-name="1500 x 1500 px Logo 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b3dec1;
+        font-family: QuincyCF-Black, 'Quincy CF';
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-size: 41.14px;
+        letter-spacing: .05em;
+        opacity: .8;
+      }
+
+      .cls-3 {
+        font-size: 28.8px;
+        letter-spacing: .05em;
+        stroke: #b3dec1;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Background">
+    <text class="cls-1" transform="translate(45.18 108.37)"><tspan class="cls-2" x="0" y="0">Oli</tspan><tspan class="cls-3" x="58.46" y="0">VR</tspan></text>
+  </g>
+</svg>
