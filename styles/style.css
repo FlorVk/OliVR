@@ -4,27 +4,43 @@
     --lightBlue: #CCEAF5;
     --darkBlue: #385580;
     --buttonBlue: #2334B6;
-    --white: #FEFDFB;
     --black: #2b2b2b;
+
+    --primaryBlue: #6A76E5;
+    --secondaryBlue: #CAC5FF;
+    --primaryGreen: #80D898;
+    --secondaryGreen: #D7F6B8;
+    --primaryYellow: #FFD66E;
+    --secondaryYellow: #FFFCD9;
+
+    --white: #ffffff;
+    --offWhite: #F6F6F6;
+    --offBlack: #303030;
+    --lightGray: #dfe2e7;
+    --darkGray: #838383;
+
+    --body: #F7F6FF;
+    --navigationEffect: #7F89E7;
 }
 
 main {
     padding-bottom: 7em;
-    background-color: var(--white);
+    background-color: var(--body);
     color: var(--black);
+    font-family: 'Rubik', sans-serif;
 }
 
 /* ------------------------- HEADERS & TEXT ------------------------- */
 
 h1 {
-    font-family: 'Quincy';
+    font-family: 'Nunito', sans-serif;
     font-size: 2.5em;
     font-weight: bold;
     color: var(--black);
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 2em;
     font-weight: 700;
     text-align: center;
@@ -32,7 +48,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.6em;
     font-weight: bold;
     text-align: center;
@@ -40,7 +56,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
@@ -48,7 +64,6 @@ h4 {
 }
 
 p {
-    font-family: 'Lato', sans-serif;
     padding-bottom: 1em;
     color: var(--black);
 }
@@ -60,7 +75,7 @@ p {
 }
 
 .section--highlight {
-    background-color: var(--lightGreen);
+    background-color: var(--secondaryBlue);
 }
 
 .flex {
@@ -98,12 +113,12 @@ p {
 /* ------------------------- NAV ------------------------- */
 
 .nav {
-    background-color: var(--lightGreen);
+    background-color: var(--secondaryBlue);
     
 }
 
 .nav__block {
-    background-color: var(--green);
+    background-color: var(--primaryBlue);
     border-bottom-left-radius:50% 75%;
     border-bottom-right-radius:50% 75%;
     height: 150px;
@@ -132,7 +147,7 @@ p {
 }
 
 .logo {
-    height: 200px;
+    height: 40px;
 }
 
 .profile-image {
@@ -147,7 +162,7 @@ p {
 .btn {
     font-family: 'Quicksand', sans-serif;
     padding: 0.5em 1em;
-    background-color: var(--buttonBlue);
+    background-color: var(--primaryYellow);
     color: var(--white);
     font-weight: bold;
     border-radius: 5px;
@@ -162,7 +177,7 @@ p {
 /* ------------------------- SHAPES ------------------------- */
 
 .circle {
-    background: var(--green);
+    background: var(--primaryBlue);
     border-radius: 50%
   }
 
@@ -202,13 +217,17 @@ p {
 /* ------------------------- FOOTER ------------------------- */
 
 .footer__block {
-    background-color: var(--green);
+    background-color: var(--primaryBlue);
     border-top-left-radius:50% 75%;
     border-top-right-radius:50% 75%;
     height: 150px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+footer {
+    background-color: var(--body);
 }
 
 /* ------------------------- PADDING & MARGINS ------------------------- */
