@@ -74,14 +74,14 @@ p {
 }
 
 .width-40 {
-    width: 0%;
+    width: 40%;
 }
 .width-50 {
     width: 50%;
 }
 
 .width-60 {
-    width: 43%;
+    width: 60%;
 }
 
 .width-100 {
@@ -102,12 +102,16 @@ p {
     display: flex;
 }
 
+.section-image {
+    padding-left: 18em;
+    padding-bottom: 4em;
+}
+
 /* ------------------------- BLOCKS ------------------------- */
 
 .block-flex {
     display: flex;
     justify-content: space-around;
-    margin: 0 10em;
 }
 
 .pack-block {
@@ -163,8 +167,8 @@ p {
 /* ------------------------- IMAGES & ICONS ------------------------- */
 
 .image-round {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     align-items: center;
     border-radius: 50%;
@@ -330,11 +334,11 @@ footer {
 }
 
 .left {
-    padding-left: 2em;
+    padding-left: 7em;
 }
 
 .right {
-    padding-right: 2em;
+    padding-right: 7em;
 }
 
 .bottom {
@@ -389,6 +393,12 @@ footer {
         align-items: center;
         flex-direction: column;
         margin: 0 0em;
+    }
+
+    .mobile-block {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
     }
 }
 
